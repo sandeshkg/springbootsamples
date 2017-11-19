@@ -1,4 +1,4 @@
-package com.sharemarket.com.stock.controller;
+package com.sharemarket.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
