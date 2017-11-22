@@ -34,7 +34,7 @@ class HelloController{
 	public String doSomething(){
 
 		List<String> services = discoveryClient.getServices();
-		List<ServiceInstance> serviceInstances = discoveryClient.getInstances("testresult");
+		List<ServiceInstance> serviceInstances = discoveryClient.getInstances("stockprice");
 
 		//serviceInstances.get(0).
 		return "Check this out...!!";
